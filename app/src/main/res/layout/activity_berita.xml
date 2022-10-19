@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    tools:context=".Berita">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JUDUL BERITA"
+        android:textFontWeight="@android:integer/config_longAnimTime"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at hendrerit magna. Nulla tincidunt laoreet orci, et suscipit lacus ultricies sed. Nulla pretium faucibus convallis. Aliquam condimentum, urna a pulvinar lacinia, elit dolor fermentum quam, eu tempus dolor leo vel dolor. Praesent congue, ipsum at ornare iaculis, ligula turpis pulvinar nisl, tempor elementum eros est non ex. Quisque pretium placerat erat at convallis. Curabitur quis magna eu velit sagittis fermentum. Praesent venenatis, est sagittis pulvinar vehicula, lacus nisi rutrum velit, semper tristique diam nisl eget lorem. Sed vel dolor porta, faucibus nibh et, fringilla lorem. Nam vel enim sed sapien rutrum venenatis. Ut sagittis dui a urna porttitor feugiat. Maecenas odio enim, lobortis a risus in, sagittis ultrices ex. Nullam euismod varius magna, ut suscipit nibh sollicitudin ut. Suspendisse luctus quam vitae tortor posuere, nec vulputate turpis sagittis. Morbi quis velit convallis, pellentesque metus ac, commodo diam.
+Aliquam ultrices sapien suscipit, faucibus urna at, convallis tortor.
+ Suspendisse sed euismod dui, eu pharetra ligula. Duis tortor est, fringilla quis enim quis, gravida volutpat justo. Sed dignissim, velit vel volutpat facilisis, tellus risus elementum lacus, ac iaculis erat lectus quis orci. Sed feugiat tellus a tincidunt posuere. Duis in dignissim ex, porttitor tincidunt dolor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque euismod ex eget tincidunt sagittis. Cras fermentum pretium sapien et feugiat. Sed in ipsum tincidunt, iaculis nisl rutrum, dictum tellus. Duis id ultricies nisi.
+
+Duis ultricies, sapien euismod ornare facilisis, metus felis varius ipsum, eu blandit neque libero quis augue. Nullam tincidunt, nibh sed viverra lobortis, diam nisl elementum arcu, quis fermentum quam dolor sit amet tortor. In vestibulum nunc nunc, et condimentum turpis rutrum nec. Nam viverra rhoncus metus at tempor. In non finibus dolor. Nulla leo lectus, tempus non orci facilisis, condimentum gravida lacus. Nunc ac nisl consequat, laoreet risus imperdiet, tempor tellus. Mauris eu nisl in magna pellentesque convallis eget id arcu. Proin quis arcu vel est interdum sollicitudin sed vel mi.
+
+Duis vel nisi sapien. Aenean quis orci nisi. Maecenas vulputate ut nisl ullamcorper vulputate. Proin tristique ligula nunc, in facilisis felis elementum at. Quisque lacinia vel lorem a tincidunt. Fusce a lacinia risus. Maecenas nisl eros, eleifend id ligula vel, vestibulum fermentum mi. Proin id lacus et ligula egestas vehicula. Proin elementum scelerisque urna ut vehicula. Etiam erat nulla, scelerisque nec sodales at, congue rutrum dolor. Duis id velit at justo laoreet molestie sit amet vitae est.
+
+Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur in metus nec tellus fringilla hendrerit id quis libero. Pellentesque vitae consequat ipsum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla in sem ac elit elementum faucibus. Cras cursus lacus in auctor congue. Aenean est dolor, fermentum vel nisi sed, congue cursus arcu. Quisque risus velit, gravida non magna eget, malesuada ultrices odio."
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+</androidx.constraintlayout.widget.ConstraintLayout>
